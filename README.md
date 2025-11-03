@@ -2,9 +2,10 @@
 
 A sophisticated AI agent that plays Hangman using a hybrid approach combining **Hidden Markov Models (HMM)** and **Q-Learning Reinforcement Learning**.
 
-![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/status-active-success.svg)
+![Python](https://img.shields.io/badge/Python-3.10.19-blue?logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-2.1.2-013243?logo=numpy&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.5.1%2Bcu121-EE4C2C?logo=pytorch&logoColor=white)
+![JupyterCore](https://img.shields.io/badge/Jupyter_Core-5.9.1-F37626?logo=jupyter&logoColor=white)
 
 ---
 
@@ -272,85 +273,6 @@ Solutions:
 - Reduce memory_size (replay buffer)
 - Consider implementing Deep Q-Networks (DQN) instead of tabular Q-Learning
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here are some ideas:
-
-### Potential Improvements
-
-- [ ] Replace tabular Q-Learning with Deep Q-Networks (DQN)
-- [ ] Implement higher-order n-gram models (trigrams, 4-grams)
-- [ ] Add prioritized experience replay
-- [ ] Implement double Q-Learning
-- [ ] Add curriculum learning (easy to hard words)
-- [ ] Create web interface for interactive play
-- [ ] Add model checkpointing and loading
-- [ ] Implement multi-language support
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Create a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see below for details:
-
-```
-MIT License
-
-Copyright (c) 2025
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
-## 📧 Contact
-
-For questions, suggestions, or issues:
-- Open an issue on GitHub
-- Email: [your-email@example.com]
-
----
-
-## 🙏 Acknowledgments
-
-- Hidden Markov Model implementation inspired by classical NLP literature
-- Q-Learning algorithm based on Sutton & Barto's "Reinforcement Learning: An Introduction"
-- Thanks to the open-source community for numpy and matplotlib
-
----
-
-## 📚 References
-
-- Rabiner, L. R. (1989). "A tutorial on hidden Markov models and selected applications in speech recognition"
-- Sutton, R. S., & Barto, A. G. (2018). "Reinforcement Learning: An Introduction"
-- Watkins, C. J., & Dayan, P. (1992). "Q-learning"
 
 ---
 
