@@ -98,38 +98,21 @@ The script will automatically:
 ### Expected Output
 
 ```
---- Hangman Agent Initializing (HMM + Q-Learning) ---
-Loaded 10000 valid words
-Training HMMs...
-Training HMM for length 5 (1234 words)
-Training HMM for length 6 (1456 words)
-...
-HMM training complete! Trained 20 models
-
-Training RL Agent...
-Episode 100/2000 | Reward: 45.23 | Success: 0.65
-Episode 200/2000 | Reward: 52.41 | Success: 0.72
-...
-Training Complete! (Took 145.32s)
-
-Evaluating on 2000 games...
-Evaluation finished in 12.45s
-
 ============================================================
 EVALUATION RESULTS
 ============================================================
 Games Played: 2000
-Wins: 1450
-Success Rate: 72.50%
-Total Wrong Guesses: 3200
-Total Repeated Guesses: 150
+Wins: 769
+Success Rate: 38.45%
+Total Wrong Guesses: 9891
+Total Repeated Guesses: 0
 
 Score Components:
-  Win Score (100 per win):    + 145,000
-  Wrong Guess Penalty (×2):   - 6,400
-  Repeated Guess Penalty (×1):- 150
+  Win Score (100 per win):    + 76,900
+  Wrong Guess Penalty (×2):   - 19,782
+  Repeated Guess Penalty (×1):- 0
 
-🎯 FINAL SCORE: 138,450.00
+🎯 FINAL SCORE: 57,118.00
 ============================================================
 ```
 
